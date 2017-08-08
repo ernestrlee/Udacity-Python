@@ -2,6 +2,19 @@ import webbrowser
 
 
 class Movie():
+    """This class provides a way to store movie related information.
+    
+    Notes:
+        Do not include the "self" parameter in the "Args"  section
+
+    Args:
+        movie_title (str)- The title of the movie
+        movie_storyline (str)- The storyline of the movie
+        poster_image (str)- A URL for the Poster Image
+        trailer_youtube (str)- A URL for the Movie Trailer
+        
+    """
+    
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         self.title = movie_title
